@@ -1,0 +1,21 @@
+{
+    "name": "elgentos/module-categorygridlist",
+    "description": "Offers an option in the backend to toggle grid or list view on a category basis, instead of on a global basis",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "peterjaap@elgentos.nl",
+            "name": "Peter Jaap Blaakmeer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Elgentos\\CategoryGridList\\": ""
+        }
+    }
+}
